@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   addTaskButton.addEventListener("click", () => {
     const taskTest = todoInput.value.trim();
+    
     if (taskTest === "") return;
 
     const newTask = {
